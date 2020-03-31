@@ -1,4 +1,20 @@
 package src.teamA.voorbeeld;
+import java.util.ArrayList; //Importeert de arraylist commands
+
+
+public class Scrum extends Voertuig{ 
+
+	Scrum(String merk, String bouwjaar, String kleur) { // Verwijst naar de superklasse
+		super(merk, bouwjaar, kleur);
+	}
+
+	private static ArrayList<Voertuig> voertuigen = new ArrayList<Voertuig>(); //maakt de arraylist 'voertuigen' aan
+
+	public static void main(String[] args) {
+
+		voegToe(voertuigen, new Voertuig(merk,bouwjaar,kleur)); //Roept de voegToe methode aan
+		Print(voertuigen); //Roept de Print methode aan
+	}
 
 public static void voegToe(ArrayList<Voertuig> lijst, Voertuig eenVoertuig) { //Voegt een voertuig toe
     lijst.add(eenVoertuig);
