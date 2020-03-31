@@ -1,4 +1,4 @@
-package teamA.voorbeeld;
+package src.teamA.voorbeeld;
 
 public static void voegToe(ArrayList<Voertuig> lijst, Voertuig eenVoertuig) { //Voegt een voertuig toe
     lijst.add(eenVoertuig);
