@@ -7,7 +7,7 @@ public class Superklasse
   {
     System.out.print(c);
   }
-  Superklasse() { //Wordt als eerst gedaan. Dus Q
+  Superklasse() { //Wordt als eerst gedaan. Dus Q.
 	  System.out.print('Q'); 
   }
 }

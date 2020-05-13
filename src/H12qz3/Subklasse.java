@@ -8,7 +8,7 @@ class Subklasse extends Superklasse
     this('N');
     System.out.print(c2);
   }
-  Subklasse(char b) //Wordt niet uitgevoerd
+  Subklasse(char b) //Wordt niet uitgevoerd.
   {
     System.out.print(b);
   }
