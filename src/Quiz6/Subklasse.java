@@ -9,7 +9,7 @@ public class Subklasse extends Superklasse
     System.out.print(e); //Print p uit, want de d van de superklasse wordt overschreden
     super.mijnMethode(); //Roept de methode mijnMethode() uit de superklasse aan
     x += 2; //x was 8, nu 10
-    System.out.print(x); //Print 10 uit. Uiteindelijk dus pd810.
+    System.out.print(x); //Print 10 uit. Uiteindelijk dus pd810
   }
   public static void main(String[] args)
   {
