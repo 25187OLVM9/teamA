@@ -6,6 +6,6 @@ public class SuperB
   public SuperB()
   {
     x += 2;
-    System.out.print(" x" + x); //Doet 3 + 2, dus eerst wordt x5 uitgeprint
+    System.out.print(" x" + x); //Doet 3 + 2, dus eerst wordt x5 uitgeprint.
   }
 }

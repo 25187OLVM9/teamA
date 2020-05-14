@@ -6,6 +6,6 @@ public class SuperA extends SuperB //roept SuperB aan
   public SuperA()
   {
     y++;
-    System.out.print(" y" + y); //Gebeurd na SuperB. Doet y + 1, dus y8
+    System.out.print(" y" + y); //Gebeurd na SuperB. Doet y + 1, dus y8.
   }
 }
